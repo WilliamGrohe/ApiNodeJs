@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   )
 })
 
-app.get('/episodes', (req, res) => {
+app.get('/episode', (req, res) => {
   res.json(
     {
       episodes: [
@@ -32,7 +32,7 @@ app.get('/episodes', (req, res) => {
   )
 })
 
-app.get('/episode', (req, res) => {
+app.get('/episodes', (req, res) => {
   res.json(
     {
       "episodes": [
