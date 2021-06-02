@@ -9,6 +9,14 @@ app.get('/', (req, res) =>{
     })
 })
 
+app.get('/rotateste', (req, res) =>{
+    res.json({ 
+        name: "william",
+        lastName: "Grohe",
+        msg: "SUCESSO!"
+    })
+})
+
 app.listen(PORT, () => {
     console.log('escutando na porta ' + PORT);
 });
