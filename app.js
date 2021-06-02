@@ -9,10 +9,10 @@ app.get('/', (req, res) => {
   )
 })
 
-app.get('/episode', (req, res) => {
+app.get('/episodes', (req, res) => {
   res.json(
     {
-      "episodes": [
+      episodes: [
         {
           id: "a-importancia-da-contribuicao-em-open-source",      
           title: "Faladev #30 | A importância da contribuição em Open Source",
@@ -32,7 +32,7 @@ app.get('/episode', (req, res) => {
   )
 })
 
-app.get('/episodes', (req, res) => {
+app.get('/episode', (req, res) => {
   res.json(
     {
       "episodes": [
