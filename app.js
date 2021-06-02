@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/episodes', (req, res) => {
-  res.appjson(
+  res.json(
     {
       id: "a-importancia-da-contribuicao-em-open-source",
       title: "Faladev #30 | A importância da contribuição em Open Source",
